@@ -1,14 +1,28 @@
 # depslib dependency file v1.0
-1720045048 source:c:\omar\programacion\c++\graph-implementation\project\graph.cpp
+1720049040 source:c:\omar\programacion\c++\graph-implementation\project\graph.cpp
+	"Graph.h"
+	<iostream>
+	<fstream>
+	<sstream>
+
+1720047331 c:\omar\programacion\c++\graph-implementation\project\graph.h
+	"Node.h"
+	"Store.h"
+
+1720047535 source:c:\omar\programacion\c++\graph-implementation\project\main.cpp
+	<iostream>
+	"Store.h"
 	"Graph.h"
 
-1720045048 c:\omar\programacion\c++\graph-implementation\project\graph.h
-
-1584205420 source:c:\omar\programacion\c++\graph-implementation\project\main.cpp
-	<iostream>
-
-1720045067 source:c:\omar\programacion\c++\graph-implementation\project\node.cpp
+1720047340 source:c:\omar\programacion\c++\graph-implementation\project\node.cpp
 	"Node.h"
 
-1720045067 c:\omar\programacion\c++\graph-implementation\project\node.h
+1720046450 c:\omar\programacion\c++\graph-implementation\project\node.h
+	"Store.h"
+
+1720045957 source:c:\omar\programacion\c++\graph-implementation\project\store.cpp
+	"Store.h"
+
+1720045969 c:\omar\programacion\c++\graph-implementation\project\store.h
+	<iostream>
 

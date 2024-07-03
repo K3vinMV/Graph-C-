@@ -1,15 +1,30 @@
 #ifndef NODE_H
 #define NODE_H
+#include "Store.h"
 
+class NodeEdge;
 
-class Node
+class NodeVertex
 {
     public:
-        Node();
+        Store data;
+        NodeVertex *nextVer;
+        NodeEdge *hE;
 
-    protected:
+        NodeVertex();
+        NodeVertex(Store,NodeVertex*,NodeEdge*);
+};
 
-    private:
+class NodeEdge
+{
+    public:
+        int distance;
+        NodeVertex *destination;
+        NodeEdge *nextEdge;
+
+        NodeEdge();
+        NodeEdge(int,NodeVertex*,NodeEdge*);
+
 };
 
 #endif // NODE_H
